@@ -48,7 +48,8 @@ body {
   line-height: 1.6;
   text-transform: capitalize;
   letter-spacing: .2px;
-  padding: 4rem 0;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 .author {
@@ -57,7 +58,7 @@ body {
   text-shadow: 2px 2px 8px rgba(0,0,0,.7)
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .container {
   width: 85%;
   }
@@ -73,4 +74,24 @@ body {
     font-size: 1.2rem;
     text-shadow: none;
   }
+}
+
+/* BIG SCREEN ADJUSTMENTS */
+
+@media (min-width: 1600px) {
+  
+  .container {
+    width: 75%;
+  }
+  
+  .quote {
+    padding: 8rem;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 2;
+  }
+  
+  .author {
+    font-size: 2rem;
+    }
 }
