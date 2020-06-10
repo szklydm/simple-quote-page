@@ -9,11 +9,12 @@ body {
   height: 100vh;
 }
 
+/*
+
 .container {
   text-align: center;
   margin: 0 auto;
   width: 85%;
-  min-width: 400px;
 }
 
 .quote {
@@ -28,4 +29,48 @@ body {
 .author {
   font-family: 'crimson text', italic;
   font-size: 1.2rem;
+}
+
+*/
+
+/* MOBILE-FRIENDLY VERSION */
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: capitalize;
+  letter-spacing: .2px;
+  padding: 4rem 0;
+}
+
+.author {
+  font-family: 'crimson text', italic;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,.7)
+}
+
+@media (min-width: 600px) {
+  .container {
+  width: 85%;
+  }
+  
+  .quote {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.3;
+    text-transform: none;
+  }
+  
+  .author {
+    font-size: 1.2rem;
+    text-shadow: none;
+  }
 }
