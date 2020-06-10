@@ -9,30 +9,6 @@ body {
   height: 100vh;
 }
 
-/*
-
-.container {
-  text-align: center;
-  margin: 0 auto;
-  width: 85%;
-}
-
-.quote {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: .2px;
-  padding: 4rem 0;
-}
-
-.author {
-  font-family: 'crimson text', italic;
-  font-size: 1.2rem;
-}
-
-*/
-
 /* MOBILE-FRIENDLY VERSION */
 
 .container {
